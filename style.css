@@ -1,0 +1,242 @@
+:root{
+    --gray : #afafaf;
+    --darkGray : #5C5C5C;
+    --gray4 :#a9a9a9;
+    --liquorice : #362F33;
+    --light-gray: #A1B1CB;
+    --white : #fff;
+     --black : #000;
+    --yellow : #ffea00;
+    --dark-yellow : #FFC907;    
+    --orange : #E43109;
+    --purple : #5E47A1;
+    --lavender :#9686c7;
+    --neon-green : #3BFF37;
+    --black-pink: #161214;
+    --navbar-back : #2e177070;
+    --navy-blue : #3B567D;
+    --red : #FF2E00;
+    --dark-purple: #5436A9; 
+    
+   
+
+}
+
+
+
+
+body {
+  background-color: var(--black);
+}
+
+.m-auto{
+    margin: auto;
+}
+.Roboto-font{
+    font-family: 'Roboto';
+}
+
+
+.Montserrat-font{
+    font-family: Montserrat;
+}
+
+.PermanentMarke-font{
+    font-family: 'Permanent Marker';
+  
+}
+
+.proxima-nova-condensed-font{
+    font-family: 'proxima-nova-condensed';
+}
+
+.Griffy-font{
+    font-family: 'Griffy';
+}
+
+.header{
+    background-image: url(img/poster.jpeg);
+}
+
+.header-movie{
+    background-image: url("img/poster-movie.jpeg" );
+}
+
+.icons{
+    background: linear-gradient(2.87deg, #130B29 9.89%, #5436A9 100%, #5E47A1 100%);
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5em;
+
+}
+.part{
+    width: 30%;
+    
+  height: 100%;
+}
+
+div.part > h1 {
+    font-size: 5vw!important;
+}
+
+div.part p{
+    font-size: 1vw;
+}
+.watch{
+    background-color: var(--purple);
+    border-radius: 22px;
+   
+    
+}
+nav{
+
+    background: linear-gradient(90.53deg, rgba(0, 0, 0, 0.75) 0.45%, rgba(102, 80, 165, 0.75) 105.51%);
+    color: var(--light-gray);
+}
+
+nav li:hover{
+    color: var(--white);
+
+}
+
+h1{
+    font-size: 100px !important
+}
+.card-overlay{
+    position: absolute;
+    background:  linear-gradient(0deg, rgb(0 0 0) 0%, rgba(255, 255, 255, 0) 100%);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+
+}
+.imdb{
+    font-size: 2rem !important;
+}
+
+
+
+.profile{
+    width: 59px;
+    height: 59px;
+    border : 1px solid var(--white);
+
+}
+
+
+
+
+.genre{
+    color: var(--dark-yellow);
+
+
+
+}
+
+.searchBox{
+    background-color : var(--navy-blue);
+    color : var(--light-gray);
+    border-radius : 18.5px;
+    width : 324px;
+    height : 37px;
+    
+}
+
+.genres{
+    color: var(--red);
+  
+}
+
+.dialect-item{
+    background-color: var(--darkGray);
+
+
+
+}
+
+.dialect-item:hover {
+    background-color: var(--orange);
+}
+
+.recommended-card__img{
+    width: 168px;
+    height: 237px;
+    
+}
+
+.year{
+    color: var(--gray) ;
+    font-size:  11px ;
+    
+}
+
+.fa-imdb{
+    color: var(--yellow);
+    font-size: 20px;
+    
+}
+
+.score {
+    color : var(--yellow);
+    font-weight: bold;
+
+}
+
+
+
+.seeMore , watch{
+    background-color: var(--purple);
+    border-radius: 22px;
+    
+}
+
+.seeMore:hover{
+    background-color:var(--lavender);
+}
+
+
+
+
+footer{
+    background-color: var(--black-pink);
+}
+
+.lang-box{
+    background-color: var(--liquorice);
+    height: max-content;
+   
+}
+
+footer ul li{
+    line-height: 30px;
+    opacity: 79.84%;
+   
+}
+
+.trailer{
+    width: 307px;
+    height: 145px;
+    border-radius: 7px;
+}
+.member__pos {
+    color : var(--gray4);
+    font-size: 15px;
+}
+
+.member-img{
+    width : 110px ;
+    height: 145px;
+    border-radius: 9px;
+    
+}
+
+
+.h-300px{
+    height: 300px;
+} 
+
+.test{
+    width: 168px;
+}
